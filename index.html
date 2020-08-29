@@ -1,10 +1,12 @@
+<!--Check the indentation-->
 <!doctype html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+  <!--Including a description is better to improve SEO-->
+  <meta name="description" content="Julian's personal webpage">
   <title>201714171</title>
   <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
   <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -33,9 +35,15 @@
         </ul>
     </div>
 </nav>
-  <div class="jumbotron">
-    <h1>Personal page</h1>
-  </div>
+  <!--It is better to include the banner in a "head" section-->
+  <head>
+    <div class="jumbotron">
+      <h1>Personal page</h1>
+    </div>
+  </head>
+  
+  <!--It is better to include the content in a "main" section-->
+  <main>
   <div class = "container-fluid">
     <section class="resume-section" id="about">
       <div>
@@ -175,6 +183,7 @@
       </div>
     </div>
   </div>
+</main>
   <footer id="contact">
     <div class="d-flex ">
       <div class="col-sm-6 center">
